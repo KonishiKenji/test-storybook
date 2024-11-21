@@ -1,0 +1,16 @@
+{
+    "Icons": [
+        "App.css",
+        "App.test",
+        "App",
+        "Introduction.stories.mdx",
+        "components",
+        "index.css",
+        "index",
+        "logo.svg",
+        "react-app-env.d.ts",
+        "reportWebVitals.ts",
+        "setupTests.ts",
+        "stories"
+    ]
+}

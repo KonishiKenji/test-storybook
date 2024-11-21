@@ -23,7 +23,9 @@
     "format:check": "prettier --check .",
     "deploy:local": "gh-pages -d storybook-static",
     "deploy": "yarn build && yarn deploy:local",
-    "chromatic": "chromatic --project-token=9abf40bb663e --auto-accept-changes --exit-once-uploaded"
+    "chromatic": "chromatic --project-token=9abf40bb663e --auto-accept-changes --exit-once-uploaded",
+    "build:manifest": "node ./scripts/createManifest.js",
+    "storybook:manifest": "yarn build:manifest && start-storybook -p 6006"
   },
   "dependencies": {
     "@semantic-release/commit-analyzer": "9.0.2",
